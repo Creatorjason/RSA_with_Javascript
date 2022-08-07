@@ -44,7 +44,7 @@ function generateKeys(e, _phiN){
 
     return d;
 }
-
+// recommended value for e is 3
 function modInverse(e,phi){
         let m = phi;
         let tempVar;
